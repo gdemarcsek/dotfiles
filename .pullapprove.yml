@@ -1,10 +1,10 @@
 version: 2
 groups:
   code-review:
+    author_approval:
+      required: true
     approve_by_comment:
-      approve_regex: ^Approved
-      enabled: true
-      reject_regex: ^Rejected
+      enabled: false
     required: 1
     reset_on_push:
       enabled: true
