@@ -7,3 +7,5 @@ cp ~/.screenrc ./screen/
 brew list > brew/formulas.lst
 
 git --no-pager diff
+
+my malicious change
