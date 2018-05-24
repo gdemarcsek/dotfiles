@@ -90,6 +90,5 @@ source $ZSH/oh-my-zsh.sh
 source ~/.bashrc
 
 #export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=blue"
-export ZSH_HIGHLIGHT_STYLES[hashed-command]=none
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
