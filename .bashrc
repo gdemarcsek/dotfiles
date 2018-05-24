@@ -15,6 +15,10 @@ alias d='docker'
 alias dc="docker-compose"
 alias kube="kubectl"
 
+if [[ "x$(which exa)" != "x" ]]; then
+    alias ls='exa'
+fi
+
 # Ansible
 export ANSIBLE_NOCOWS=1
 
