@@ -7,7 +7,6 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 # Clean up prompt command
 export PROMPT_COMMAND=
 
-
 # Aliases
 alias more='less'
 alias mc='mc --nocolor'
@@ -32,3 +31,10 @@ alias gcloud-docker-auth='docker login -e not@val.id -u _token -p "$(gcloud auth
 alias gcr-login='gcloud-docker-auth gcr.io'
 alias gcr-eu-login='gcloud-docker-auth eu.gcr.io'
 
+
+# Source other .bashrc-s
+for file in $(ls ~/.bashrc.d); do
+    if [ ! -f "${BASH_SOURCE}.skip/${file}" ]; then
+        . ~/.bashrc.d/$file
+    fi
+done
