@@ -2,6 +2,7 @@
 #export LC_CTYPE="hu_HU.utf8"
 
 export PATH=/usr/local/bin:$PATH
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # Clean up prompt command
 export PROMPT_COMMAND=
