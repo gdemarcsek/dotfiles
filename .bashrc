@@ -14,6 +14,8 @@ alias mc='mc --nocolor'
 alias d='docker'
 alias dc="docker-compose"
 alias kube="kubectl"
+# autojump
+alias j='autojump'
 
 if [[ "x$(which exa)" != "x" ]]; then
     alias ls='exa'
