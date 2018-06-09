@@ -1,0 +1,11 @@
+{
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "materialTheme.fixIconsRunning": false,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 16
+}
