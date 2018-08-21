@@ -13,6 +13,8 @@ if [[ "x$(which exa)" != "x" ]]; then
     alias ls='exa'
 fi
 
+export EDITOR="$(which vim)"
+
 # Source other .bashrc-s
 for file in $(ls ~/.bashrc.d); do
     if [ ! -f "${BASH_SOURCE}.skip/${file}" ]; then
